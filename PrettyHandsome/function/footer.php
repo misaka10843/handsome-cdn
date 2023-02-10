@@ -81,7 +81,7 @@ class PluginsFooter{
         }
 
         // 动态背景
-        $PluginPath = 'https://gcore.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/';
+        $PluginPath = 'https://cdn.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/';
         
         // 获取配置信息
         $dynamicBackgroundtype = Helper::options()->plugin('PrettyHandsome')->dynamicBackground;

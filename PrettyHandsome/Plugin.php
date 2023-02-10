@@ -212,8 +212,8 @@ class PrettyHandsome_Plugin implements PluginInterface
     
     public static function insertHeader()
     {
-        echo "<script src='https://gcore.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/js/extend.js'></script>";
-        echo "<script src='https://gcore.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/js/edit.js'></script>";
+        echo "<script src='https://cdn.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/js/extend.js'></script>";
+        echo "<script src='https://cdn.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/js/edit.js'></script>";
     }
 
     /**

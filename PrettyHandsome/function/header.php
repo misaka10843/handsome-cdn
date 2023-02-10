@@ -19,7 +19,7 @@ class PluginsHead{
 
     // 配置插件
     static function SettingHead(){
-        $qrcodejsUrl = 'https://gcore.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/js/qrcode.min.js';
+        $qrcodejsUrl = 'https://cdn.jsdelivr.net/gh/misaka10843/handsome-cdn@main/PrettyHandsome/static/js/qrcode.min.js';
         if(Helper::options()->plugin('PrettyHandsome')->postQRcode == 1){
             echo '<script src="'.$qrcodejsUrl.'"></script>';
         }
